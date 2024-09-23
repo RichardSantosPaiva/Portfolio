@@ -1,0 +1,42 @@
+
+section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  width: 430px;
+  position: relative;
+}
+
+.box1 {
+  width: 85%;
+  height: 290px;
+  z-index: 99;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(44, 44, 44);
+  border-radius: 10px;
+}
+
+.box2 {
+  width: 91%;
+  height: 300px;
+  z-index: 2;
+  position: absolute;
+  top: 10px;
+  background-color: rgb(159, 157, 157);
+  border-radius: 10px;
+}
+
+.box3 {
+  width: 95%;
+  height: 300px;
+  z-index: 1;
+  position: absolute;
+  top: 30px;
+  left:5px;
+  background-color: rgba(105, 104, 104);
+  border-radius: 10px;
+}
