@@ -1,0 +1,17 @@
+.carrossel {
+  border: 1px solid black;
+}
+
+.item {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Alinhamento vertical */
+  flex-direction: column; /* Para que os ícones e textos fiquem em coluna */
+  height: 300px; /* Ajuste conforme necessário */
+}
+
+.icone {
+  font-size: 100px; /* Ajuste o tamanho que você deseja */
+  margin-bottom: 20px; /* Espaçamento entre o ícone e o texto */
+}
